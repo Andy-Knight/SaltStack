@@ -1,3 +1,5 @@
+# Top file for the base environment
+
 base:                     # The environment name (base is used as env name for GIT master branch)
   'G@dc:london':          # All minions with a grain called "dc" with a value of "london"
     - FileAndDirectory    # Apply the states within "FileAndDirectory.sls" or "/FileAndDirectory/init.sls"
