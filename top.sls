@@ -1,3 +1,3 @@
 training:
   'G@dc:london':
-    - test2
+    - FileAndDirectory
