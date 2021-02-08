@@ -1,3 +1,3 @@
-training:
+base:
   'G@dc:london':
     - FileAndDirectory
