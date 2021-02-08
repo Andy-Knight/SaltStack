@@ -1,4 +1,4 @@
-# Create a user group
+# Create a user group that contains existing root and admin users
 
 demogroup:
   group.present:
