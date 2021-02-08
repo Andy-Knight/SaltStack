@@ -3,4 +3,4 @@ base:                     # The environment name (base is used as env name for G
     - FileAndDirectory    # apply the state file "FileAndDirectory.sls" or "/FileAndDirectory/init.sls"
   
   'saltc*':
-    - 
+    - Firewall
