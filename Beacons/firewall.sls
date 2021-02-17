@@ -2,6 +2,7 @@
 
 firewall_beacon:               #State ID
   beacon.present:              #Beacon should be present
+    - name: service            #Name of the beacon module to use
     - save: True               #Updates the local beacon.conf file on the minion
     - enable: True             #Enables the beacon
     - services:                #The beacon module to use, in this case 'services' for monitoring services
